@@ -54,7 +54,7 @@ nav{
     list-style: none;
 }
 
-body h2{
+.welcome {
     font-family: 'Noto Serif JP', serif;
     margin: 20px;
     text-align: center;
@@ -62,18 +62,50 @@ body h2{
 
 }
 
-
-body    h3{
-    font-family: 'Noto Serif JP', serif;
+.welcome2 {
     margin: 20px;
     font-weight: bolder;
     text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 100px;
     
     
+    
+    
+
+
+}
+.Welcome_Center{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif JP', serif;
+    font-size: larger;
+    
+
+    
+}
+
+
+body h4{
+    font-family:'Noto Serif JP', serif ;
+    margin: 20px;
+    font-size: larger;
 
     
     
     
+}
+
+.tree_img{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+img{
+    opacity: 55%;
 }
 
 body{

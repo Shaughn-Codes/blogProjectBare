@@ -6,6 +6,11 @@ li{
 }
 */
 
+html{
+    width: fit-content;
+    height: fit-content;
+}
+
 *{
     
     padding: 0px;
@@ -27,8 +32,12 @@ nav{
 
 }
 
+
+
 .logo{
+    
     color: #EFC988;
+    display: flex;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 18px;
@@ -54,37 +63,36 @@ nav{
     list-style: none;
 }
 
-.welcome {
-    font-family: 'Noto Serif JP', serif;
-    margin: 20px;
-    text-align: center;
-    
-
-}
-
-.welcome2 {
-    margin: 20px;
-    font-weight: bolder;
-    text-align: center;
-    border-bottom: 2px solid black;
-    padding-bottom: 100px;
-    
-    
-    
-    
-
-
-}
 .Welcome_Center{
+    font-family: 'Noto Serif JP', serif;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 52%;
     transform: translate(-50%, -50%);
-    font-family: 'Noto Serif JP', serif;
     font-size: larger;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-bottom: 100px ;
+    padding-top: 100px;
     
 
     
+}
+
+.Post-Section{
+    font-family: 'Noto Serif JP', serif;
+    font-size: large;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.homeblog-post{
+
+
 }
 
 
@@ -92,6 +100,7 @@ body h4{
     font-family:'Noto Serif JP', serif ;
     margin: 20px;
     font-size: larger;
+    
 
     
     
@@ -105,7 +114,7 @@ body h4{
 }
 
 img{
-    opacity: 55%;
+    opacity: 50%;
 }
 
 body{

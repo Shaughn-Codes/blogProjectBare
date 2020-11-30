@@ -7,8 +7,8 @@ li{
 */
 
 html{
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
 }
 
 *{
@@ -19,6 +19,8 @@ html{
     
 
 }
+
+
 
 nav{
     display: flex;
@@ -36,12 +38,20 @@ nav{
 
 .logo{
     
+    
     color: #EFC988;
     display: flex;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 18px;
     
+}
+
+.logo a{
+    text-decoration: none;
+    color: #EFC988;
+    font-family: 'Noto Serif JP', serif;
+
 }
 
 .links{
@@ -91,9 +101,57 @@ nav{
 }
 
 .homeblog-post{
+    max-width: 800px;
+    position: absolute;
+    top: 60%;
+    left: 36%;
+
+
 
 
 }
+
+input, textarea{
+    display: block;
+    width: 200%;
+    height: 100%;
+    border: 2px solid;
+    padding: 1.5rem;
+    top: 60%;
+    left: 42%;
+    position: relative;
+    font-size: 15px;
+}
+
+
+#sendBtn{
+    border: 0;
+    background: #C92A2E;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s background ease;
+
+    
+
+}
+
+#sendBtn:hover{
+    background: #ff3333;
+
+}
+
+.links a:hover{
+    color: #EFC988;
+}
+
+.logo a:hover{
+    color: white;
+}
+
 
 
 body h4{
@@ -119,8 +177,12 @@ img{
 
 body{
     background-color: #EFC988;
+    margin: 0%;
+    padding: 0%;
 
 }
+
+
 
 
 
